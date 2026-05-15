@@ -1,0 +1,18 @@
+web_env_url: "http://127.0.0.1:9010"
+web_retrieve_url_train: "http://127.0.0.1:9011"
+web_retrieve_url_test: "http://127.0.0.1:9012"
+web_concurrency: 128
+web_skill_language_audit_enable_rule_based: 1
+
+web_host: "0.0.0.0"
+web_env_port: 9010
+web_retrieve_train_port: 9011
+web_retrieve_test_port: 9012
+web_max_depth: 20
+web_max_workers: 128
+web_pid_file: "web_env_server_pids.json"
+web_startup_timeout: 300
+web_retrieve_startup_timeout: 300
+web_log_dir: "log/web"
+web_retrieve_host: "0.0.0.0"
+web_retrieve_question_col: "question"

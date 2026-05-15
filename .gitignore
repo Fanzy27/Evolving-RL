@@ -1,0 +1,14 @@
+*.log
+data/
+!src/data/
+models/
+wandb/
+__pycache__/
+*.py[cod]
+*$py.class
+*.json
+*.jsonl
+log/
+._*
+*.zip
+docs/

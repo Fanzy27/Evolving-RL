@@ -1,0 +1,20 @@
+alfworld_env_url: "http://127.0.0.1:9000"
+alfworld_retrieve_url_train: "http://127.0.0.1:9001"
+alfworld_retrieve_url_test: "http://127.0.0.1:9002"
+alfworld_concurrency: 640
+alfworld_skill_language_audit_enable_rule_based: 1
+
+alfworld_router_port: 9000
+alfworld_worker_host: "127.0.0.1"
+alfworld_worker_start_port: 9101
+alfworld_router_host: "0.0.0.0"
+alfworld_num_workers: 256
+alfworld_log_dir: "log/env_log"
+alfworld_pid_file: "alfworld_server_pids.json"
+alfworld_startup_timeout: 180
+alfworld_shutdown_timeout: 3
+alfworld_restart_interval: 25
+alfworld_retrieve_host: "0.0.0.0"
+alfworld_retrieve_train_port: 9001
+alfworld_retrieve_test_port: 9002
+alfworld_retrieve_question_col: "question"
