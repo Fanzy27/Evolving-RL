@@ -1,4 +1,4 @@
-# Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents [[Paper]](https://arxiv.org/abs/2605.10663)
+# Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents
 
 ## Overview
 
@@ -113,21 +113,6 @@ bash scripts/alfworld/train_alfworld.sh
 bash scripts/web/train_web.sh
 ```
 
-## Citation
-
-If you find our work helpful, please consider citing:
-
-```bibtex
-@misc{fan2026evolvingrlendtoendoptimizationexperiencedriven,
-      title={Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents}, 
-      author={Zhiyuan Fan and Wenwei Jin and Feng Zhang and Bin Li and Yihong Dong and Yao Hu and Jiawei Li},
-      year={2026},
-      eprint={2605.10663},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2605.10663}, 
-}
-```
 
 ## Acknowledgement
 
