@@ -1,3 +1,5 @@
+
+
 # Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents
 
 ## Overview
@@ -69,7 +71,7 @@ huggingface-cli download Qwen/Qwen2.5-7B-Instruct --local-dir models/Qwen2.5-7B-
 # Convert to Megatron-format reference model (for KL regularization)
 source slime/scripts/models/qwen2.5-7B.sh
 cd slime
-PYTHONPATH=/root/Megatron-LM python slime/tools/convert_hf_to_torch_dist.py \
+PYTHONPATH=/root/Megatron-LM python tools/convert_hf_to_torch_dist.py \
     ${MODEL_ARGS[@]} \
     --hf-checkpoint models/Qwen2.5-7B-Instruct \
     --save models/Qwen2.5-7B-Instruct_torch_dist
